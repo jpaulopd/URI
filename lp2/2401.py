@@ -8,4 +8,4 @@ while(n > 0):
     elif(c[1] == '/'):
         r /= int(c[0])
 
-print(int(r))
+print('{:.0f}'.format(r))
