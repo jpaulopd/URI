@@ -1,2 +1,9 @@
-i = 1 
-for i in (1,3,6,9)
+i = 1
+j = 7
+
+while i <= 9:
+    for c in range(1,4):
+        print('I={} J={}'.format(i,j))
+        j -= 1
+    i += 2
+    j += 5
